@@ -1,0 +1,27 @@
+{
+  "name": "test-symbol-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "^5.11.0",
+    "@ledgerhq/hw-transport-webusb": "^5.11.0",
+    "bip32-path": "^0.4.2",
+    "js-sha3": "^0.8.0",
+    "nem2-hd-wallets": "^0.8.1",
+    "nem2-sdk": "^0.17.0",
+    "rxjs": "^6.5.4",
+    "symbol-sdk": "^0.17.3",
+    "tweetnacl": "^1.0.3",
+    "typescript": "^3.8.3",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2"
+  }
+}
